@@ -8,7 +8,38 @@ class Page2 extends StatefulWidget {
 class _Page2State extends State<Page2> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            MaterialButton(
+              onPressed: () {},
+              child: Text(
+                'Establecer.',
+                style: TextStyle(color: Colors.white),
+              ),
+              color: Colors.blue,
+            ),
+            MaterialButton(
+              onPressed: () {},
+              child: Text(
+                'Cambiar Edad.',
+                style: TextStyle(color: Colors.white),
+              ),
+              color: Colors.blue,
+            ),
+            MaterialButton(
+              onPressed: () {},
+              child: Text(
+                'Agregar Profesion.',
+                style: TextStyle(color: Colors.white),
+              ),
+              color: Colors.blue,
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
-

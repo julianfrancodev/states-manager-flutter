@@ -33,10 +33,10 @@ class UserInfo extends StatelessWidget {
           Text('General', style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),),
           Divider(),
           ListTile(title: Text('name'),),
-          ListTile(title: Text('name'),),
-          Text('General', style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),),
+          ListTile(title: Text('age'),),
+          Text('Jobs', style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),),
           Divider(),
-          ListTile(title: Text('name'),),
+          ListTile(title: Text('job 1'),),
         ],
       ),
     );

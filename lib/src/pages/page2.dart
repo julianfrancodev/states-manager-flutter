@@ -30,7 +30,9 @@ class _Page2State extends State<Page2> {
               color: Colors.blue,
             ),
             MaterialButton(
-              onPressed: () {},
+              onPressed: () {
+                // TODO add agregar profesion method
+              },
               child: Text(
                 'Agregar Profesion.',
                 style: TextStyle(color: Colors.white),

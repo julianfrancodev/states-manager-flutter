@@ -22,7 +22,9 @@ class _Page2State extends State<Page2> {
               color: Colors.blue,
             ),
             MaterialButton(
-              onPressed: () {},
+              onPressed: () {
+                // TODO handle change the age
+              },
               child: Text(
                 'Cambiar Edad.',
                 style: TextStyle(color: Colors.white),
